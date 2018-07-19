@@ -10,6 +10,7 @@ public class HelloController {
 
     @Autowired
     private Book book;
+
     @RequestMapping("/hello")
     public String index() {
         // TODO: 2018/7/19 0019 输出无论页面还是打印都是乱码
